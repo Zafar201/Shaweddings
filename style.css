@@ -1661,4 +1661,17 @@ input:required {
    btn .a{
      color: white;
    }
+   button.mfp-close,button.mfp-arrow{
+     background-color: #000;
+     height: 0px;
+   }
+   .mfp-arrow-left::after{
+    border-right-color: red;
+   }
+   .mfp-arrow-right::before {
+    border-left-color: red;
+}
+.mfp-arrow-left::before {
+  border-right-color: red;
+}
 /*# sourceMappingURL=style.css.map */
