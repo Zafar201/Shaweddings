@@ -1674,4 +1674,23 @@ input:required {
 .mfp-arrow-left::before {
   border-right-color: red;
 }
+/* @font-face {
+  font-family: 'alisandra_demoregular';
+  src: url('fonts/Benillia/Benillia.ttf');
+  font-style: normal;
+  font-weight: 100;
+  font-size: 26px;
+  text-transform: none;
+}
+header .header-font{
+  font-family: alisandra_demoregular;
+  font-weight: 100;
+  font-size: 26px;
+} */
 /*# sourceMappingURL=style.css.map */
+.header .header-font{
+  text-decoration: none;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
